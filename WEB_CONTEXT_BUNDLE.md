@@ -208,72 +208,99 @@ This file is generated from repository truth and bounded for the web channel. It
     "acceptance": {
       "policy": "solution-admission-v1"
     },
-    "aliases": [],
+    "aliases": [
+      "Hodge Conjecture",
+      "Rational Hodge Conjecture"
+    ],
     "allowed_axioms": [
-      "none"
+      "classical-mathematics",
+      "standard-algebraic-geometry",
+      "standard-Hodge-theory"
     ],
     "assumptions": [
-      "This record must never be treated as an active research problem."
+      "Only hypotheses explicitly present in the frozen official statement and the selected accepted branch are admitted.",
+      "Finite computation, restricted models, conditional lemmas and special cases do not close the universal root statement.",
+      "Statement-faithfulness and current-status review must close before Result admission."
     ],
     "constraints": {
       "allowed_adapters": [
-        "template-validation-v1"
+        "source-fidelity-review-v1",
+        "lean-obligation-v1"
       ],
       "allowed_methods": [
-        "discovery"
+        "discovery",
+        "derivation",
+        "computation",
+        "proof",
+        "formalization"
       ],
-      "max_attempts": 1,
+      "max_attempts": 20,
       "runtime": {
-        "max_output_bytes": 65536,
-        "max_retries": 1,
-        "max_transitions": 10,
-        "timeout_seconds": 60
+        "max_output_bytes": 5242880,
+        "max_retries": 3,
+        "max_transitions": 300,
+        "timeout_seconds": 1800
       }
     },
-    "created_at": "2026-09-06T00:00:00Z",
+    "created_at": "2026-08-16T18:20:00+08:00",
     "definitions": [
       {
-        "definition": "A non-admitted draft record used only to validate the physical public repository template.",
-        "term": "template placeholder"
+        "definition": "A class α in H^{2p}(X,Q)∩H^{p,p}(X).",
+        "term": "rational Hodge class"
+      },
+      {
+        "definition": "The cohomology class of a codimension-p complex algebraic subvariety, extended by rational linear combinations.",
+        "term": "algebraic cycle class"
       }
     ],
     "domain": {
-      "description": "Template-only placeholder domain; not a mathematical research question.",
+      "description": "光滑射影复代数簇、有理上同调、Hodge 分解与代数循环类。",
       "objects": [
-        "template-placeholder"
+        "smooth projective complex algebraic varieties X",
+        "rational cohomology H^{2p}(X,Q)",
+        "Hodge subspace H^{p,p}(X)",
+        "codimension-p algebraic cycles"
       ]
     },
-    "lifecycle": "draft",
+    "lifecycle": "active",
     "msc": [
-      "00A00"
+      "14C30"
     ],
-    "problem_id": "problem:template-placeholder",
+    "problem_id": "problem:millennium-hodge-conjecture",
     "quantifiers": [
       {
-        "domain": "a reviewed public canonical ProblemContract supplied by the repository builder",
-        "kind": "find",
+        "domain": "smooth projective complex varieties X, integers p, and α in H^{2p}(X,Q)∩H^{p,p}(X)",
+        "kind": "forall",
         "variables": [
-          "replacement_problem"
+          "X",
+          "p",
+          "α"
         ]
       }
     ],
     "schema_version": "1.0.0",
     "sources": [
       {
-        "retrieved_at": "2026-09-06T00:00:00Z",
-        "source": "Vibe Mathing public Web Harness",
-        "source_record_id": "public-template-placeholder-v1",
-        "url": "https://github.com/vibemathing/vibe-mathing-problem-public-template"
+        "retrieved_at": "2026-08-16T18:20:00+08:00",
+        "source": "Clay Mathematics Institute",
+        "source_record_id": null,
+        "url": "https://www.claymath.org/millennium/hodge-conjecture/"
+      },
+      {
+        "retrieved_at": "2026-08-16T18:20:00+08:00",
+        "source": "Clay Mathematics Institute official problem descriptions",
+        "source_record_id": null,
+        "url": "https://www.claymath.org/wp-content/uploads/2022/02/MPPc.pdf"
       }
     ],
     "statement": {
-      "language": "en",
-      "text": "This is a non-research placeholder. Replace it with exactly one reviewed public ProblemContract before creating a public problem repository.",
+      "language": "zh-CN",
+      "text": "设 X 为光滑射影复代数簇。证明对每个 p，H^{2p}(X,Q)∩H^{p,p}(X) 中的每个有理 Hodge 类都是余维 p 的复代数子簇之上同调类的有理线性组合；或者在同一有理系数、光滑射影复簇设置中给出严格反例。整系数 Hodge 猜想的反例、非射影情形、低维已知结论或有限样本计算不能替代该原命题。",
       "version": 1
     },
-    "title": "Vibe Mathing public problem repository template placeholder",
-    "updated_at": "2026-09-06T00:00:00Z"
+    "title": "霍奇猜想",
+    "updated_at": "2026-09-07T08:10:00Z"
   },
-  "problem_contract_sha256": "e64cd03254e03dd661eade23243c3c21793fc2d8bffa2d33c172cf8ed2e7f940"
+  "problem_contract_sha256": "e7776b768c1e06c3d8ebe6ab1e1657d358f563fee08026d5596df862a446bc75"
 }
 ```
