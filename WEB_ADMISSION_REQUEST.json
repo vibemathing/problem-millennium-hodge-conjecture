@@ -1,0 +1,24 @@
+{
+  "schema_version": "web-admission-request.v1",
+  "status": "proposal_only_not_applied",
+  "created_at": "2026-09-09",
+  "source_catalog": "CONJECTURE_CATALOG.md",
+  "request": {
+    "admission": "canonical_admitted",
+    "admission_status": "new_conjecture_attempt_required",
+    "branch": "web/attempt-millennium-hodge-conjecture-01",
+    "current_base_commit": "71a4a981174759cbccee155d6c4988c0f90150fc",
+    "lifecycle": "active",
+    "obligation_statement": "Freeze an eight-category conjecture map from the user-provided ChatGPT export as candidate-only mathematical research material; preserve exact scope, assumptions, source status, falsifiers, and unresolved verification obligations without claiming a proof, counterexample, Evidence, Result, or Solution.",
+    "problem_contract_sha256": "e7776b768c1e06c3d8ebe6ab1e1657d358f563fee08026d5596df862a446bc75",
+    "problem_id": "problem:millennium-hodge-conjecture",
+    "proposed_attempt_id": "attempt:chatgpt-conjecture-catalog-millennium-hodge-conjecture-01",
+    "proposed_graph_id": "graph:chatgpt-conjecture-freeze-millennium-hodge-conjecture-v1",
+    "proposed_obligation_id": "obligation:freeze-eight-category-candidates-millennium-hodge-conjecture-v1",
+    "proposed_route_id": "route:chatgpt-conjecture-freeze-millennium-hodge-conjecture-v1",
+    "repository": "vibemathing/problem-millennium-hodge-conjecture",
+    "source_chat_sha256": "7be945b391d4010bcbbda6a73a2647b2d78923078e63577a3b9b8b6088488579",
+    "target_path": "research/artifacts/candidates/chatgpt-conjectures-v1.md"
+  },
+  "note": "trusted-side 锚点：web 通道 packet 的 admission_request 应引用此文件条目；部分准入由 CI 的 --allow-pending 放行，records 仍禁写（防自我准入）。"
+}
