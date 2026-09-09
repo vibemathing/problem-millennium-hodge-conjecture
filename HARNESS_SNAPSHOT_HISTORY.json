@@ -13,6 +13,13 @@
       "tree_sha256": "48502ac06a052d6d0932975fe9cc206b7c5b32c1c7a48ba205439ce011b6f6f1",
       "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
       "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1"
+    },
+    {
+      "harness_snapshot_sha256": "593648461028e9ceb21c8ec6c51f9cd02dbb1d8fddcbef8996aa129b8d40454d",
+      "harness_version": "1.2.5",
+      "tree_sha256": "48502ac06a052d6d0932975fe9cc206b7c5b32c1c7a48ba205439ce011b6f6f1",
+      "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
+      "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1"
     }
   ],
   "repository": "vibemathing/problem-millennium-hodge-conjecture",

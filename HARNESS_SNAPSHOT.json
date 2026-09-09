@@ -1916,7 +1916,7 @@
       "sha256": "7af42453d37f28f641e06d56e7e78415117031ccd73e61dd71f157522cbff764"
     }
   ],
-  "harness_version": "1.2.4",
+  "harness_version": "1.2.5",
   "problem": {
     "admission": "canonical_admitted",
     "contract_sha256": "e7776b768c1e06c3d8ebe6ab1e1657d358f563fee08026d5596df862a446bc75",
