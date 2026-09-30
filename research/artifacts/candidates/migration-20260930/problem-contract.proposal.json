@@ -1,0 +1,127 @@
+{
+  "acceptance": {
+    "policy": "solution-admission-v1"
+  },
+  "aliases": [
+    "Hodge Conjecture",
+    "Rational Hodge Conjecture"
+  ],
+  "allowed_axioms": [
+    "classical-mathematics",
+    "standard-algebraic-geometry",
+    "standard-Hodge-theory"
+  ],
+  "assumptions": [
+    "Only hypotheses explicitly present in the frozen official statement and the selected accepted branch are admitted.",
+    "Finite computation, restricted models, conditional lemmas and special cases do not close the universal root statement.",
+    "Statement-faithfulness and current-status review must close before Result admission."
+  ],
+  "constraints": {
+    "allowed_adapters": [
+      "source-fidelity-review-v1",
+      "lean-obligation-v1"
+    ],
+    "allowed_methods": [
+      "discovery",
+      "derivation",
+      "computation",
+      "proof",
+      "formalization"
+    ],
+    "max_attempts": 20,
+    "runtime": {
+      "max_output_bytes": 5242880,
+      "max_retries": 3,
+      "max_transitions": 300,
+      "timeout_seconds": 1800
+    }
+  },
+  "created_at": "2026-08-16T18:20:00+08:00",
+  "definitions": [
+    {
+      "definition": "A class α in H^{2p}(X,Q)∩H^{p,p}(X).",
+      "term": "rational Hodge class"
+    },
+    {
+      "definition": "The cohomology class of a codimension-p complex algebraic subvariety, extended by rational linear combinations.",
+      "term": "algebraic cycle class"
+    }
+  ],
+  "domain": {
+    "description": "光滑射影复代数簇、有理上同调、Hodge 分解与代数循环类。",
+    "objects": [
+      "smooth projective complex algebraic varieties X",
+      "rational cohomology H^{2p}(X,Q)",
+      "Hodge subspace H^{p,p}(X)",
+      "codimension-p algebraic cycles"
+    ]
+  },
+  "lifecycle": "draft",
+  "msc": [
+    "14C30"
+  ],
+  "problem_id": "problem:millennium-hodge-conjecture",
+  "quantifiers": [
+    {
+      "domain": "smooth projective complex varieties X, integers p, and α in H^{2p}(X,Q)∩H^{p,p}(X)",
+      "kind": "forall",
+      "variables": [
+        "X",
+        "p",
+        "α"
+      ]
+    }
+  ],
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "retrieved_at": "2026-09-30T00:13:00Z",
+      "source": "Clay Mathematics Institute",
+      "source_record_id": null,
+      "url": "https://www.claymath.org/millennium/hodge-conjecture/",
+      "revision": "retrieved-2026-09-30-sha256:018ea5032f56a65a7a509a461d920c806cb2ceb0f0d87a1c37bbd1c01802bd55",
+      "content_sha256": "018ea5032f56a65a7a509a461d920c806cb2ceb0f0d87a1c37bbd1c01802bd55",
+      "quote": "Unsolved",
+      "license": {
+        "name": "No general redistribution license identified; rights review pending",
+        "attribution": "Clay Mathematics Institute; page text",
+        "url": null
+      }
+    },
+    {
+      "retrieved_at": "2026-09-30T00:13:00Z",
+      "source": "Clay Mathematics Institute official problem descriptions",
+      "source_record_id": null,
+      "url": "https://www.claymath.org/wp-content/uploads/2022/02/MPPc.pdf",
+      "revision": "retrieved-2026-09-30-sha256:7fb0391e8ea20db9102c022a9f6aa504d5436e644d0dffb6c9ed82f4f09af269",
+      "content_sha256": "7fb0391e8ea20db9102c022a9f6aa504d5436e644d0dffb6c9ed82f4f09af269",
+      "quote": "The present volume sets forth the official description of each of the seven problems",
+      "license": {
+        "name": "No general redistribution license identified; rights review pending",
+        "attribution": "Clay Mathematics Institute; J. Carlson, A. Jaffe and A. Wiles, editors, The Millennium Prize Problems",
+        "url": null
+      }
+    },
+    {
+      "source": "Pierre Deligne, official problem description, Clay Mathematics Institute",
+      "source_record_id": null,
+      "url": "https://www.claymath.org/wp-content/uploads/2022/06/hodge.pdf",
+      "retrieved_at": "2026-09-30T00:13:00Z",
+      "revision": "retrieved-2026-09-30-sha256:e308d945ea3cf5dad8b187a06509013712c467b589039eb41b365cc4c988f0c8",
+      "content_sha256": "e308d945ea3cf5dad8b187a06509013712c467b589039eb41b365cc4c988f0c8",
+      "quote": "Rational (p, p)-classes are called Hodge classes.",
+      "license": {
+        "name": "No general redistribution license identified; rights review pending",
+        "attribution": "Pierre Deligne, The Hodge Conjecture, Clay Mathematics Institute",
+        "url": null
+      }
+    }
+  ],
+  "statement": {
+    "language": "zh-CN",
+    "text": "设 X 为光滑射影复代数簇。证明对每个 p，H^{2p}(X,Q)∩H^{p,p}(X) 中的每个有理 Hodge 类都是余维 p 的复代数子簇之上同调类的有理线性组合；或者在同一有理系数、光滑射影复簇设置中给出严格反例。整系数 Hodge 猜想的反例、非射影情形、低维已知结论或有限样本计算不能替代该原命题。",
+    "version": 1
+  },
+  "title": "霍奇猜想",
+  "updated_at": "2026-09-30T00:13:00Z"
+}

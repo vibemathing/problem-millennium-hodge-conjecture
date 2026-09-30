@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "graph_id": "graph:hodge-migration-20260930",
+  "problem_id": "problem:millennium-hodge-conjecture",
+  "attempt_id": "attempt:hodge-migration-20260930",
+  "route_id": "route:hodge-migration-20260930",
+  "problem_contract_sha256": "e7776b768c1e06c3d8ebe6ab1e1657d358f563fee08026d5596df862a446bc75",
+  "root_obligation_id": "obligation:hodge-migration-20260930-local",
+  "obligations": [
+    {
+      "obligation_id": "obligation:hodge-migration-20260930-local",
+      "kind": "lemma",
+      "statement": {
+        "text": "In R=Q[a,b]/(a^3,b^3), L v=0, v^2=3a^2b^2, and (La,Lb,v) is a Q-basis of degree-four classes with determinant 3 in the basis (a^2,ab,b^2). This is a specific quotient-ring calculation, not the Hodge conjecture for arbitrary varieties.",
+        "language": "en",
+        "formal_declaration": null
+      },
+      "statement_sha256": "077595041dea2ad190866d12089a0e557bf0fb4e547248272a0ec07810f659da",
+      "dependencies": [
+        "obligation:hodge-migration-20260930-definition"
+      ],
+      "acceptance": {
+        "required_capabilities": [
+          "human_review",
+          "statement_faithfulness"
+        ],
+        "allowed_candidate_kinds": [
+          "proof",
+          "computation"
+        ]
+      },
+      "source_refs": [
+        "https://www.claymath.org/wp-content/uploads/2022/06/hodge.pdf"
+      ]
+    },
+    {
+      "obligation_id": "obligation:hodge-migration-20260930-definition",
+      "kind": "definition",
+      "statement": {
+        "text": "Let R=Q[a,b]/(a^3,b^3), with a and b of cohomological degree two; set L=a+b and v=a^2-ab+b^2.",
+        "language": "en",
+        "formal_declaration": null
+      },
+      "statement_sha256": "9c2b3821b4c668bd985df43a7cfbf6e6fbd02aa257ee2b16eeb478e7b7b45119",
+      "dependencies": [],
+      "acceptance": {
+        "required_capabilities": [
+          "human_review",
+          "statement_faithfulness"
+        ],
+        "allowed_candidate_kinds": [
+          "proof",
+          "computation"
+        ]
+      },
+      "source_refs": [
+        "https://www.claymath.org/wp-content/uploads/2022/06/hodge.pdf"
+      ]
+    }
+  ],
+  "created_at": "2026-09-30T00:13:00Z",
+  "supersedes": null
+}

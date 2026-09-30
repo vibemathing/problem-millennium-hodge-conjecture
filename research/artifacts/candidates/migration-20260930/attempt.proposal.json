@@ -1,0 +1,24 @@
+{
+  "attempt_id": "attempt:hodge-migration-20260930",
+  "problem_id": "problem:millennium-hodge-conjecture",
+  "route_id": "route:hodge-migration-20260930",
+  "obligation_graph_id": "graph:hodge-migration-20260930",
+  "problem_contract_sha256": "e7776b768c1e06c3d8ebe6ab1e1657d358f563fee08026d5596df862a446bc75",
+  "generator": "dot; model identity unverified",
+  "objective": "Request review of a bounded existing local lemma and source-compatible contract proposal; no root closure",
+  "method": "derivation",
+  "lifecycle": "planned",
+  "started_at": "2026-09-30T00:13:00Z",
+  "completed_at": null,
+  "inputs": [
+    "problem-library/records/canonical-problems.jsonl",
+    "research/artifacts/source-notes/migration-20260930/source-manifest.json"
+  ],
+  "claims": [
+    "In R=Q[a,b]/(a^3,b^3), L v=0, v^2=3a^2b^2, and (La,Lb,v) is a Q-basis of degree-four classes with determinant 3 in the basis (a^2,ab,b^2). This is a specific quotient-ring calculation, not the Hodge conjecture for arbitrary varieties."
+  ],
+  "artifacts": [
+    "research/artifacts/candidates/migration-20260930/research-draft.zh.md",
+    "research/artifacts/candidates/migration-20260930/experiment.py"
+  ]
+}
